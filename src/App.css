@@ -10,8 +10,26 @@ h2 {
 	margin: 25px 0;
 }
 
-h3 {
-	font-family: "Caveat", cursive;
-	font-size: 2.5rem;
-	margin: 15px;
+.BodyComponents {
+	display: flex;
+	flex-direction: row;
+}
+
+button {
+	border: 1px solid black;
+	background-color: #0e3c7e;
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+	font-size: 1rem;
+	padding: 5px 10px;
+	margin-right: 15px;
+}
+
+button:focus {
+	background-color: #1e60a9;
+}
+
+button:focus:disabled {
+	background-color: gray;
 }

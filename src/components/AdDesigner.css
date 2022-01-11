@@ -1,5 +1,5 @@
 .adContainer {
-	border: 2px solid black;
+	/* border: 2px solid black; */
 	text-align: center;
 	min-width: 250px;
 	width: fit-content;
@@ -9,13 +9,15 @@
 }
 
 .lightTheme {
+	border: 2px solid #222;
 	background-color: white;
-	color: black;
+	color: #000;
 }
 
 .darkTheme {
-	background-color: rgb(37, 37, 37);
-	color: white;
+	border: 2px solid #fff;
+	background-color: #222;
+	color: #fff;
 }
 
 .fontSize {
@@ -23,24 +25,7 @@
 	margin-right: 15px;
 }
 
-button {
-	border: 1px solid black;
-	background-color: navy;
-	border-radius: 5px;
-	color: white;
-	font-weight: bold;
-	font-size: 1rem;
-	padding: 5px 10px;
-	margin-right: 15px;
-	/* width: 100px; */
-}
-
-button:focus {
-	background-color: gray;
-}
-
 h3 {
 	font-family: "Caveat", cursive;
-	/* font-size: 2.5rem; */
 	margin: 15px;
 }
