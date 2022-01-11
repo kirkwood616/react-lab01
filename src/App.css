@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+
+body {
+	font-weight: bold;
+}
+
+h2 {
+	font-family: "Caveat", cursive;
+	font-size: 3rem;
+	margin: 25px 0;
+}
+
+h3 {
+	font-family: "Caveat", cursive;
+	font-size: 2.5rem;
+	margin: 15px;
+}
