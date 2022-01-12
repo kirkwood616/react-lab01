@@ -7,6 +7,7 @@ function AdDesigner() {
 	let addTheme = "";
 	addTheme = colorTheme ? " lightTheme" : " darkTheme";
 	const [fontSize, setFontSize] = useState(40);
+
 	return (
 		<div id="AdDesigner">
 			<h2>Ad Designer</h2>

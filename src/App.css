@@ -30,6 +30,11 @@ button:focus {
 	background-color: #1e60a9;
 }
 
-button:focus:disabled {
+/* button:disabled {
+	background-color: gray;
+} */
+
+.disabled {
+	pointer-events: none;
 	background-color: gray;
 }

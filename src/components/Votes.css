@@ -1,16 +1,28 @@
 .chocolateVotes {
 	background-color: #4f2c2c;
 	border-radius: 5px;
-	width: 50px;
+	width: 0;
 	height: 20px;
 }
 
 .vanillaVotes {
 	background-color: #cbc0ac;
 	border-radius: 5px;
+	width: 0;
+	height: 20px;
 }
 
 .strawberryVotes {
 	background-color: #de8c91;
 	border-radius: 5px;
+	width: 0;
+	height: 20px;
+}
+
+.hidden {
+	display: none;
+}
+
+.empty {
+	display: none;
 }
