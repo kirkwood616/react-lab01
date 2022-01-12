@@ -23,7 +23,7 @@ function Votes() {
 
 			{/* VOTING SECTION */}
 
-			{chocolateVotes === 0 && vanillaVotes === 0 && strawberryVotes === 0 ? (
+			{totalVotes === 0 ? (
 				<p>No votes yet.</p>
 			) : (
 				<div className={`votes`}>
