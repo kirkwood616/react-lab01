@@ -10,10 +10,16 @@ h2 {
 	margin: 25px 0;
 }
 
+.allAdContainer {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	margin: 25px;
+}
+
 .BodyComponents {
 	display: flex;
-	flex-direction: row;
-	justify-content: center;
+	/* justify-content: center; */
 }
 
 button {
@@ -21,7 +27,7 @@ button {
 	background-color: #0e3c7e;
 	border-radius: 5px;
 	color: white;
-	font-weight: bold;
+	/* font-weight: bold; */
 	font-size: 1rem;
 	padding: 5px 10px;
 	margin: 10px 10px 10px 0;
@@ -35,9 +41,8 @@ button:disabled {
 	background-color: gray;
 }
 
-.disabled {
-	pointer-events: none;
-	background-color: gray;
+.fontLight {
+	font-weight: normal;
 }
 
 @media only screen and (max-width: 768px) {

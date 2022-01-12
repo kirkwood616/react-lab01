@@ -24,14 +24,19 @@ function Votes() {
 			{/* VOTING SECTION */}
 
 			{totalVotes === 0 ? (
-				<p>No votes yet.</p>
+				<span className="fontLight">
+					<p>No votes yet.</p>
+				</span>
 			) : (
 				<div className={`votes`}>
 					<div
 						className={chocolateVotes === 0 ? "empty" : "chocolateContainer"}
 					>
 						<p>
-							Chocolate: {chocolateVotes} ({chocolatePercent.toFixed(1)}%)
+							Chocolate:{" "}
+							<span className="fontLight">
+								{chocolateVotes} ({chocolatePercent.toFixed(1)}%)
+							</span>
 						</p>
 						<div
 							className="chocolateVotes"
@@ -41,7 +46,10 @@ function Votes() {
 
 					<div className={vanillaVotes === 0 ? "empty" : "chocolateContainer"}>
 						<p>
-							Vanilla: {vanillaVotes} ({vanillaPercent.toFixed(1)}%)
+							Vanilla:{" "}
+							<span className="fontLight">
+								{vanillaVotes} ({vanillaPercent.toFixed(1)}%)
+							</span>
 						</p>
 						<div
 							className="vanillaVotes"
@@ -53,7 +61,10 @@ function Votes() {
 						className={strawberryVotes === 0 ? "empty" : "chocolateContainer"}
 					>
 						<p>
-							Strawberry: {strawberryVotes} ({strawberryPercent.toFixed(1)}%)
+							Strawberry:{" "}
+							<span className="fontLight">
+								{strawberryVotes} ({strawberryPercent.toFixed(1)}%)
+							</span>
 						</p>
 						<div
 							className="strawberryVotes"
