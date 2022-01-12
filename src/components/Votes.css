@@ -2,6 +2,14 @@
 	margin: 5px 25px 25px 5px;
 }
 
+.voteTotal {
+	width: 190px;
+}
+
+.alignRight {
+	float: right;
+}
+
 .chocolateVotes {
 	background-color: #4f2c2c;
 	border-radius: 5px;

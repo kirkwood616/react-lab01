@@ -32,25 +32,29 @@ function Votes() {
 					<div
 						className={chocolateVotes === 0 ? "empty" : "chocolateContainer"}
 					>
-						<p>
-							Chocolate:{" "}
-							<span className="fontLight">
-								{chocolateVotes} ({chocolatePercent.toFixed(1)}%)
-							</span>
-						</p>
+						<div className="voteTotal">
+							<p>
+								Chocolate:{" "}
+								<span className="fontLight alignRight">
+									{chocolateVotes} ({chocolatePercent.toFixed(1)}%)
+								</span>
+							</p>
+						</div>
 						<div
 							className="chocolateVotes"
 							style={{ width: `${chocolatePercent}%` }}
 						></div>
 					</div>
 
-					<div className={vanillaVotes === 0 ? "empty" : "chocolateContainer"}>
-						<p>
-							Vanilla:{" "}
-							<span className="fontLight">
-								{vanillaVotes} ({vanillaPercent.toFixed(1)}%)
-							</span>
-						</p>
+					<div className={vanillaVotes === 0 ? "empty" : "vanillaContainer"}>
+						<div className="voteTotal">
+							<p>
+								Vanilla:{" "}
+								<span className="fontLight alignRight">
+									{vanillaVotes} ({vanillaPercent.toFixed(1)}%)
+								</span>
+							</p>
+						</div>
 						<div
 							className="vanillaVotes"
 							style={{ width: `${vanillaPercent}%` }}
@@ -58,18 +62,20 @@ function Votes() {
 					</div>
 
 					<div
-						className={strawberryVotes === 0 ? "empty" : "chocolateContainer"}
+						className={strawberryVotes === 0 ? "empty" : "strawberryContainer"}
 					>
-						<p>
-							Strawberry:{" "}
-							<span className="fontLight">
-								{strawberryVotes} ({strawberryPercent.toFixed(1)}%)
-							</span>
-						</p>
-						<div
-							className="strawberryVotes"
-							style={{ width: `${strawberryPercent}%` }}
-						></div>
+						<div className="voteTotal">
+							<p>
+								Strawberry:{" "}
+								<span className="fontLight alignRight">
+									{strawberryVotes} ({strawberryPercent.toFixed(1)}%)
+								</span>
+							</p>
+							<div
+								className="strawberryVotes"
+								style={{ width: `${strawberryPercent}%` }}
+							></div>
+						</div>
 					</div>
 				</div>
 			)}
