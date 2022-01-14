@@ -1,36 +1,37 @@
 #Votes {
-	margin: 5px 25px 25px 5px;
+  margin: 5px 25px 25px 5px;
 }
 
 .voteTotal {
-	width: 190px;
+  width: 190px;
 }
 
 .alignRight {
-	float: right;
+  float: right;
 }
 
 .chocolateVotes {
-	background-color: #4f2c2c;
-	border-radius: 5px;
-	width: 0;
-	height: 20px;
+  background-color: #4f2c2c;
+  border-radius: 5px;
+  width: 0;
+  height: 20px;
 }
 
 .vanillaVotes {
-	background-color: #cbc0ac;
-	border-radius: 5px;
-	width: 0;
-	height: 20px;
+  background-color: #cbc0ac;
+  border-radius: 5px;
+  width: 0;
+  height: 20px;
 }
 
 .strawberryVotes {
-	background-color: #de8c91;
-	border-radius: 5px;
-	width: 0;
-	height: 20px;
+  background-color: #de8c91;
+  border-radius: 5px;
+  width: 0;
+  height: 20px;
+  margin: 0;
 }
 
 .empty {
-	display: none;
+  display: none;
 }
